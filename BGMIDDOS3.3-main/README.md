@@ -1,2 +1,2 @@
 # ddos
-# By @mr.aashu
+# By @mafia4sure
